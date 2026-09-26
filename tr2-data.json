@@ -1,19 +1,184 @@
 {
   "section": "TR2",
-  "title": "Coterminal Angles and Arc Length",
+  "title": "Angle Position and Arc Length",
   "learningObjective": "Identify and find coterminal angles. Find the length of a circular arc.",
-  "faqs": [],
-  "videos": [],
-  "apps": [],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What are coterminal angles?",
+      "answer": "Coterminal angles are two (or more) angles that end up with the exact same terminal side when drawn in standard position — even though they represent different amounts of rotation. You can always find another angle coterminal to a given one by adding or subtracting a full 360° rotation, since spinning all the way around a circle brings you right back to where you started.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 229.7,143.0 A 80,80 0 1 0 195.9,84.5\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\" marker-end=\"url(#arrowCoterm)\"/><text x=\"180\" y=\"195\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"600\">+360&deg;</text><text x=\"205\" y=\"55\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">60&deg; and 420&deg;</text><defs><marker id=\"arrowCoterm\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#1a6b6b\"/></marker></defs></svg></div><p class=\"graph-caption\">60° and 420° land on the exact same terminal side — they're coterminal.</p>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What is the principal angle, and why do we usually work with it?",
+      "answer": "Since any angle has infinitely many coterminal angles, it's convenient to agree on one \"default\" representative to work with. The principal angle is that representative — the unique coterminal angle α satisfying 0° ≤ α &lt; 360° (or 0 ≤ α &lt; 2π in radians). Whenever you're handed a large or negative angle, converting it to its principal angle first makes it much easier to visualize and work with."
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What is arc length, and how is it different from the angle measure itself?",
+      "answer": "Arc length is the actual DISTANCE traveled along the curved edge of a circle for a given central angle — it's measured in units of length (inches, meters, etc.), not in degrees or radians. The angle measure tells you how much rotation happened; the arc length tells you how far you'd have to physically walk along the circle's edge to match that rotation. The two are related, but they're not the same kind of quantity — one's a rotation, the other's a distance.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><path d=\"M 250,150 A 100,100 0 0 0 100,63.4\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"4\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><line x1=\"150\" y1=\"150\" x2=\"100\" y2=\"63.4\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"130\" y=\"45\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">arc length s</text><text x=\"170\" y=\"140\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\">120&deg;</text></svg></div><p class=\"graph-caption\">The orange curve is the arc — the actual distance along the circle's edge for this 120° angle.</p>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "Why does the arc length formula simplify to s = rθ when θ is in radians?",
+      "answer": "This connects directly back to TR1's definition of a radian. Remember, 1 radian is defined as the angle that creates an arc exactly as long as the radius — so an angle of θ radians, by that same logic, creates an arc that's θ times the radius long. That's exactly the formula s = rθ; it's not a coincidence, it's the radian definition working exactly as designed. This is also exactly why radians are so useful in more advanced math — the relationship between angle and distance is as simple as it can possibly be."
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "What is a sector of a circle, and how do I find its area?",
+      "answer": "A sector is the pie-slice-shaped region bounded by two radii and the arc between them. Since a sector is just some fraction of the entire circle, its area is that same fraction of the entire circle's area (πr²) — the fraction being determined by how much of a full rotation (360° or 2π) the central angle represents.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 150,150 L 250,150 A 100,100 0 0 0 100,63.4 Z\" fill=\"#fdf0e8\" stroke=\"#D4622A\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><text x=\"175\" y=\"130\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">sector</text></svg></div><p class=\"graph-caption\">The shaded sector is bounded by two radii and the arc between them.</p>"
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I find angles that are coterminal to a given angle?",
+      "answer": "Add or subtract any whole-number multiple of 360° (or 2π if working in radians). The formula is θ + k·360°, where k can be any integer — positive k gives you larger coterminal angles, negative k gives you smaller (or negative) ones.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find two angles coterminal to \\( 60° \\).</p><p class=\"math-line\">Larger: \\( 60°+360°=420° \\)</p><p class=\"math-line\">Smaller: \\( 60°-360°=-300° \\)</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I find the principal angle for an angle that's very large or negative?",
+      "answer": "Repeatedly add or subtract 360° until the result lands between 0° and 360°. For a large positive angle, keep subtracting 360°; for a negative angle, keep adding 360°. If you'd rather skip the repetition, divide the angle by 360° and use just the remainder (adding 360° once more if that remainder comes out negative).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the principal angle of \\( 830° \\).</p><p class=\"math-line\">\\( 830° - 360° = 470° \\) (still too big)</p><p class=\"math-line\">\\( 470° - 360° = 110° \\) &nbsp;&nbsp; (this is between 0° and 360°)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Principal angle: \\( 110° \\)</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I find arc length when the angle is given in degrees?",
+      "answer": "Use the formula s = (θ/360°)(2πr), which simplifies to s = (θ/180°)πr.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the arc length for a \\( 120° \\) sector of a circle with radius \\( 4 \\).</p><p class=\"math-line\">\\( s = \\dfrac{120°}{360°}(2\\pi \\cdot 4) = \\dfrac{1}{3}(8\\pi) = \\dfrac{8\\pi}{3} \\)</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I find arc length when the angle is given in radians?",
+      "answer": "Use the simplified formula s = rθ directly — multiply the radius by the angle measure in radians.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the arc length for a \\( \\dfrac{5\\pi}{6} \\) sector of a circle with radius \\( 3 \\).</p><p class=\"math-line\">\\( s = r\\theta = 3 \\cdot \\dfrac{5\\pi}{6} = \\dfrac{15\\pi}{6} = \\dfrac{5\\pi}{2} \\)</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I find the area of a sector when the angle is given in degrees?",
+      "answer": "Use the formula A = (θ/360°)(πr²) — the same \"fraction of the whole\" logic as arc length, just applied to the circle's full area instead of its full circumference.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of a \\( 120° \\) sector of a circle with radius \\( 4 \\).</p><p class=\"math-line\">\\( A = \\dfrac{120°}{360°}(\\pi \\cdot 4^2) = \\dfrac{1}{3}(16\\pi) = \\dfrac{16\\pi}{3} \\)</p></div>"
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "How do I find the area of a sector when the angle is given in radians?",
+      "answer": "Use the simplified formula A = ½θr².<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of a \\( \\dfrac{5\\pi}{6} \\) sector of a circle with radius \\( 3 \\).</p><p class=\"math-line\">\\( A = \\dfrac{1}{2}\\theta r^2 = \\dfrac{1}{2}\\cdot\\dfrac{5\\pi}{6}\\cdot 3^2 = \\dfrac{1}{2}\\cdot\\dfrac{5\\pi}{6}\\cdot 9 = \\dfrac{15\\pi}{4} \\)</p></div>"
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "What's the difference between arc length and sector area, and when do I use each formula?",
+      "answer": "Arc length measures a curved DISTANCE (a 1-dimensional measurement, in units like inches or meters), while sector area measures a 2-dimensional REGION (in square units, like square inches). Use arc length when the question asks how far something travels along the curve itself; use sector area when the question asks how much surface or space the pie-slice-shaped region covers."
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "How does TR1 connect to what we're doing in TR2?",
+      "answer": "TR2 leans directly on TR1's foundation. Standard position and the sign convention (positive counterclockwise, negative clockwise) from TR1 are exactly what let you find coterminal angles by rotating a full extra turn. And the radian definition from TR1 — an angle whose arc equals the radius — is precisely why the arc length formula simplifies so cleanly to s = rθ once you're working in radians."
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "Why do coterminal angles and arc length matter for the rest of the trig unit?",
+      "answer": "Coterminal angles become essential once you start solving trig equations, since most equations have infinitely many solutions that are all coterminal with each other — you'll constantly be asked to find \"all solutions\" using the +k·360° idea from this section. Arc length and sector area also show up constantly in real-world applications of trig — anything involving wheels, gears, orbits, or circular motion relies on exactly this relationship between angle and distance."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Determine Positive and Negative Coterminal Angles",
+      "url": "https://www.youtube.com/watch?v=m7jTGVVzb0s",
+      "description": "Worked examples finding coterminal angles in degrees, both larger and smaller than the original angle.",
+      "category": "coterminal-angles",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-6"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Determining Coterminal Angles in Radian Measure",
+      "url": "https://www.youtube.com/watch?v=tpr8FkiowHk",
+      "description": "Finding coterminal angles when the original angle is given in radians.",
+      "category": "coterminal-angles",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Arc Length and Area of a Sector",
+      "url": "https://youtu.be/zD4CsKIYEHo",
+      "description": "An overview of the arc length and sector area formulas, in both degrees and radians, with worked examples.",
+      "category": "arc-length-sector-area",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-9",
+        "faq-10",
+        "faq-11"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Coterminal Angles",
+      "url": "https://coterminalunitcircle.netlify.app/",
+      "description": "Practice identifying coterminal angles and finding the principal angle on the unit circle.",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-6",
+        "faq-7"
+      ]
+    }
+  ],
   "prompts": {
-    "guided": [],
-    "open": []
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Practice Finding Coterminal Angles",
+        "prompt": "I'm learning to find coterminal angles. Give me an angle in degrees and ask me to find one larger and one smaller coterminal angle using the +k(360°) idea. Then give me an angle in radians and have me do the same thing using +k(2π). Check my work each time."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Practice Finding the Principal Angle",
+        "prompt": "I'm learning to find the principal angle of a given angle. Give me a large angle (like over 720°) or a negative angle, and walk me through finding its principal angle step by step. Then give me a few more practice angles of increasing difficulty."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Understand Where s = rθ Comes From",
+        "prompt": "I'm learning the arc length formula s = rθ for angles in radians. Can you help me understand why this formula makes sense, connecting it back to the definition of a radian as an angle that creates an arc equal to the radius? Then quiz me on a few arc length problems, mixing both degrees and radians."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Practice Arc Length and Sector Area Together",
+        "prompt": "I'm learning both the arc length formula and the sector area formula. Give me a circle's radius and a central angle, and ask me to find both the arc length AND the sector area for that same sector. Check my work, and help me keep straight which formula uses r and which uses r²."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Coterminal Angles to Solving Trig Equations",
+        "prompt": "I've learned about coterminal angles in TR2, and I've heard this becomes important later when solving trig equations. Can you explain, in a preview kind of way, why an equation like sin(θ) = 0.5 would end up having infinitely many solutions, and how coterminal angles explain that?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section TR2 (Angle Position and Arc Length). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
   },
   "paths": [
     {
       "id": "TR2",
-      "label": "TR2: Coterminal Angles and Arc Length",
-      "sectionLabel": "TR2, Coterminal Angles and Arc Length",
+      "label": "TR2: Angle Position and Arc Length",
+      "sectionLabel": "TR2, Angle Position and Arc Length",
       "intro": "Builds to the TR2 check: finding positive and negative coterminal angles, and finding the length of a circular arc.",
       "graphs": {},
       "stages": [

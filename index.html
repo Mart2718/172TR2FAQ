@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TR2: Coterminal Angles and Arc Length — Student Resource Hub</title>
+<title>TR2: Angle Position and Arc Length — Student Resource Hub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
@@ -469,7 +469,7 @@
 <header class="page-header" role="banner">
   <div class="header-inner">
     <p class="section-label" aria-hidden="true">Section TR2</p>
-    <h1>Coterminal Angles and Arc Length</h1>
+    <h1>Angle Position and Arc Length</h1>
     <p class="learning-objective">
       <strong>Learning Objective:</strong> Identify and find coterminal angles. Find the length of a circular arc.
     </p>
@@ -642,10 +642,10 @@ function renderVideos() {
   }
 
   const categoryLabels = {
-    'reference-angles': { title: 'Reference Angles', desc: 'Start here — finding the reference angle for an angle in any quadrant' },
-    'exact-values': { title: 'Exact Trig Values', desc: 'Using reference angles and signs to find exact trig function values' }
+    'coterminal-angles': { title: 'Coterminal Angles', desc: 'Start here — finding angles that share the same terminal side' },
+    'arc-length-sector-area': { title: 'Arc Length & Sector Area', desc: 'Finding the distance along an arc and the area of a sector' }
   };
-  const categoryOrder = ['reference-angles', 'exact-values'];
+  const categoryOrder = ['coterminal-angles', 'arc-length-sector-area'];
 
   categoryOrder.forEach(cat => {
     const vids = DATA.videos.filter(v => v.category === cat);
