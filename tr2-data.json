@@ -1,0 +1,237 @@
+{
+  "section": "TR2",
+  "title": "Coterminal Angles and Arc Length",
+  "learningObjective": "Identify and find coterminal angles. Find the length of a circular arc.",
+  "faqs": [],
+  "videos": [],
+  "apps": [],
+  "prompts": {
+    "guided": [],
+    "open": []
+  },
+  "paths": [
+    {
+      "id": "TR2",
+      "label": "TR2: Coterminal Angles and Arc Length",
+      "sectionLabel": "TR2, Coterminal Angles and Arc Length",
+      "intro": "Builds to the TR2 check: finding positive and negative coterminal angles, and finding the length of a circular arc.",
+      "graphs": {},
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Two quick skills TR2 leans on. Skip any you already have.",
+          "stops": [
+            {
+              "id": "tr2-g1",
+              "title": "Convert less-common angles",
+              "target": "Convert between degrees and radians for angles like \\(72^\\circ\\) or \\(\\dfrac{8\\pi}{9}\\), not just multiples of \\(30^\\circ\\) and \\(45^\\circ\\).",
+              "cold": "Convert \\(72^\\circ\\) to radians.",
+              "coldPlain": "Convert 72 degrees to radians.",
+              "coldA": "\\(72 \\cdot \\dfrac{\\pi}{180} = \\dfrac{72\\pi}{180} = \\dfrac{2\\pi}{5}\\).",
+              "solution": "Multiply by pi/180: 72pi/180. Divide top and bottom by 36: 2pi/5.",
+              "mistake": "Not fully reducing 72/180.",
+              "again": "Convert \\(280^\\circ\\) to radians, and \\(\\dfrac{8\\pi}{9}\\) to degrees.",
+              "againA": "\\(280^\\circ = \\dfrac{14\\pi}{9}\\). \\(\\dfrac{8\\pi}{9} = \\dfrac{8(180^\\circ)}{9} = 160^\\circ\\).",
+              "reflect": "What is a good first factor to try when reducing a fraction over 180?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "tr2-g2",
+              "title": "Add and subtract 2π",
+              "target": "Add or subtract \\(2\\pi\\) from a fraction of \\(\\pi\\): first rewrite \\(2\\pi\\) as a fraction with the same denominator, then combine the numerators.",
+              "cold": "Find \\(\\dfrac{3\\pi}{5} + 2\\pi\\) and \\(\\dfrac{3\\pi}{5} - 2\\pi\\).",
+              "coldPlain": "Find 3pi/5 + 2pi and 3pi/5 - 2pi.",
+              "coldA": "<strong>Step 1: Write \\(2\\pi\\) as a fraction over 5.</strong> \\(2\\pi = \\dfrac{2\\pi}{1} = \\dfrac{2\\pi \\cdot 5}{1 \\cdot 5} = \\dfrac{10\\pi}{5}\\).<br><strong>Step 2: Add.</strong> \\(\\dfrac{3\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{3\\pi + 10\\pi}{5} = \\dfrac{13\\pi}{5}\\).<br><strong>Step 3: Subtract.</strong> \\(\\dfrac{3\\pi}{5} - \\dfrac{10\\pi}{5} = \\dfrac{3\\pi - 10\\pi}{5} = -\\dfrac{7\\pi}{5}\\).",
+              "solution": "Step 1: 2pi has no denominator, so write it as 2pi/1 and multiply the top and bottom by 5 to match: 2pi = 10pi/5. Step 2: now the denominators match, so add the numerators: 3pi/5 + 10pi/5 = 13pi/5. Step 3: subtract the numerators: 3pi/5 - 10pi/5 = -7pi/5.",
+              "mistake": "Adding 2 to the numerator (getting 5pi/5) instead of first rewriting 2pi as 10pi/5.",
+              "again": "Find \\(\\dfrac{5\\pi}{8} + 2\\pi\\) and \\(\\dfrac{5\\pi}{8} - 2\\pi\\).",
+              "againA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 8}{8} = \\dfrac{16\\pi}{8}\\).<br><strong>Step 2:</strong> \\(\\dfrac{5\\pi}{8} + \\dfrac{16\\pi}{8} = \\dfrac{21\\pi}{8}\\).<br><strong>Step 3:</strong> \\(\\dfrac{5\\pi}{8} - \\dfrac{16\\pi}{8} = -\\dfrac{11\\pi}{8}\\).",
+              "reflect": "What is the rule for rewriting \\(2\\pi\\) over any denominator? (Hint: over 9, it is \\(\\dfrac{18\\pi}{9}\\).)",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "Coterminal angles first, then arc length, matching the two parts of the TR2 check.",
+          "stops": [
+            {
+              "id": "tr2-t1",
+              "title": "What coterminal means",
+              "target": "Coterminal angles share the same terminal side. They differ by a whole number of full turns: multiples of \\(360^\\circ\\) or \\(2\\pi\\).",
+              "cold": "Which of these are coterminal with \\(30^\\circ\\)? &nbsp; \\(390^\\circ\\), \\(-330^\\circ\\), \\(330^\\circ\\)",
+              "coldPlain": "Which of these are coterminal with 30 degrees: 390, -330, 330 degrees?",
+              "coldA": "Subtract each angle from \\(30^\\circ\\) and ask: is the difference a full turn, \\(360^\\circ\\) (or a multiple of it)?<br>\\(390^\\circ - 30^\\circ = 360^\\circ\\): <strong>coterminal</strong> (one extra turn).<br>\\(30^\\circ - (-330^\\circ) = 360^\\circ\\): <strong>coterminal</strong> (one turn backward).<br>\\(330^\\circ - 30^\\circ = 300^\\circ\\): <strong>not</strong> coterminal. \\(330^\\circ\\) ends in Quadrant IV.",
+              "solution": "Subtract each from 30 and see if the difference is a multiple of 360: 390 - 30 = 360 yes; 30 - (-330) = 360 yes; 330 - 30 = 300 no.",
+              "mistake": "Thinking -330 and 330 are both coterminal because they \"look related.\"",
+              "again": "Which are coterminal with \\(\\dfrac{3\\pi}{4}\\)? &nbsp; \\(\\dfrac{11\\pi}{4}\\), \\(-\\dfrac{5\\pi}{4}\\), \\(-\\dfrac{3\\pi}{4}\\)",
+              "againA": "In radians a full turn is \\(2\\pi\\). Over 4, that is \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br>\\(\\dfrac{11\\pi}{4} - \\dfrac{3\\pi}{4} = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{5\\pi}{4}\\right) = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{3\\pi}{4}\\right) = \\dfrac{6\\pi}{4}\\): <strong>not</strong> a full turn, so not coterminal.",
+              "reflect": "How can you test whether two angles are coterminal?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr2-t2",
+              "title": "Coterminal angles in degrees",
+              "target": "Find a positive and a negative coterminal angle by adding and subtracting one full turn, \\(360^\\circ\\).",
+              "cold": "Find one positive and one negative angle coterminal with \\(144^\\circ\\).",
+              "coldPlain": "Find one positive and one negative angle coterminal with 144 degrees.",
+              "coldA": "<strong>Why 360?</strong> One full turn is \\(360^\\circ\\). Going around once more lands on the same terminal side.<br><strong>Positive:</strong> add a full turn. \\(144^\\circ + 360^\\circ = 504^\\circ\\).<br><strong>Negative:</strong> subtract a full turn. \\(144^\\circ - 360^\\circ = -216^\\circ\\).",
+              "solution": "Add 360 for a positive coterminal angle: 504 degrees. Subtract 360 for a negative one: -216 degrees. (Other answers, like 864 or -576, are also correct.)",
+              "mistake": "Subtracting 180, which gives the opposite direction instead of the same terminal side.",
+              "again": "Find a positive and a negative angle coterminal with \\(40^\\circ\\).",
+              "againA": "<strong>Positive:</strong> \\(40^\\circ + 360^\\circ = 400^\\circ\\).<br><strong>Negative:</strong> \\(40^\\circ - 360^\\circ = -320^\\circ\\).",
+              "stretch": "Find the angle between \\(0^\\circ\\) and \\(360^\\circ\\) coterminal with \\(850^\\circ\\).",
+              "stretchA": "\\(850^\\circ\\) is more than two full turns, so subtract \\(360^\\circ\\) until the angle is between \\(0^\\circ\\) and \\(360^\\circ\\):<br>\\(850^\\circ - 360^\\circ = 490^\\circ\\) (still too big), then \\(490^\\circ - 360^\\circ = 130^\\circ\\).",
+              "reflect": "Why is there more than one correct answer?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr2-t3",
+              "title": "Coterminal angles in radians",
+              "target": "Find coterminal angles in radians by adding and subtracting one full turn, \\(2\\pi\\). First write \\(2\\pi\\) as a fraction with the same denominator as the angle.",
+              "cold": "Find one positive and one negative angle coterminal with \\(\\dfrac{2\\pi}{5}\\).",
+              "coldPlain": "Find one positive and one negative angle coterminal with 2pi/5.",
+              "coldA": "<strong>Step 1: Write \\(2\\pi\\) over 5.</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 5}{5} = \\dfrac{10\\pi}{5}\\).<br><strong>Step 2: Positive, add.</strong> \\(\\dfrac{2\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{12\\pi}{5}\\).<br><strong>Step 3: Negative, subtract.</strong> \\(\\dfrac{2\\pi}{5} - \\dfrac{10\\pi}{5} = -\\dfrac{8\\pi}{5}\\).",
+              "solution": "Step 1: a full turn is 2pi. The angle has denominator 5, so rewrite 2pi as 2pi/1 = 10pi/5 (multiply top and bottom by 5). Step 2: add the numerators: 2pi/5 + 10pi/5 = 12pi/5. Step 3: subtract the numerators: 2pi/5 - 10pi/5 = -8pi/5.",
+              "mistake": "Skipping Step 1 and adding 2 to the numerator (getting 4pi/5), or adding 2pi/5 instead of 2pi.",
+              "again": "Find a positive and a negative angle coterminal with \\(\\dfrac{5\\pi}{3}\\).",
+              "againA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 3}{3} = \\dfrac{6\\pi}{3}\\).<br><strong>Step 2:</strong> \\(\\dfrac{5\\pi}{3} + \\dfrac{6\\pi}{3} = \\dfrac{11\\pi}{3}\\).<br><strong>Step 3:</strong> \\(\\dfrac{5\\pi}{3} - \\dfrac{6\\pi}{3} = -\\dfrac{\\pi}{3}\\).",
+              "stretch": "Find the angle between \\(0\\) and \\(2\\pi\\) coterminal with \\(-\\dfrac{17\\pi}{4}\\).",
+              "stretchA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br><strong>Step 2:</strong> the angle is negative, so <em>add</em> full turns until it is between 0 and \\(2\\pi\\):<br>\\(-\\dfrac{17\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{9\\pi}{4}\\), then \\(-\\dfrac{9\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{\\pi}{4}\\), then \\(-\\dfrac{\\pi}{4} + \\dfrac{8\\pi}{4} = \\dfrac{7\\pi}{4}\\).",
+              "reflect": "How is this the same as adding \\(360^\\circ\\) in degrees? What is the extra step in radians?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr2-t4",
+              "title": "Arc length with radians",
+              "target": "The length of an arc on a circle of radius \\(r\\) cut off by a central angle \\(\\theta\\) <strong>in radians</strong> is \\(s = r\\theta\\).",
+              "cold": "Find the length of the arc of a circle of radius 6 intercepted by an angle of \\(\\dfrac{5\\pi}{6}\\).",
+              "coldPlain": "Find the length of the arc of a circle of radius 6 intercepted by an angle of 5pi/6.",
+              "coldA": "\\(s = 6 \\cdot \\dfrac{5\\pi}{6} = 5\\pi\\) (about 15.71 units).",
+              "solution": "The angle is already in radians, so s = r * theta = 6 * 5pi/6 = 5pi.",
+              "mistake": "Using the formula with an angle in degrees.",
+              "again": "Radius 9, angle \\(\\dfrac{4\\pi}{9}\\). Find the arc length.",
+              "againA": "\\(s = 9 \\cdot \\dfrac{4\\pi}{9} = 4\\pi\\).",
+              "reflect": "Why does a bigger radius give a longer arc for the same angle?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr2-t5",
+              "title": "Arc length with degrees",
+              "target": "If the angle is in degrees, convert it to radians <em>first</em>, then use \\(s = r\\theta\\).",
+              "cold": "Find the length of the arc of a circle of radius 10 intercepted by an angle of \\(144^\\circ\\).",
+              "coldPlain": "Find the length of the arc of a circle of radius 10 intercepted by an angle of 144 degrees.",
+              "coldA": "\\(144^\\circ = \\dfrac{4\\pi}{5}\\), so \\(s = 10 \\cdot \\dfrac{4\\pi}{5} = 8\\pi\\).",
+              "solution": "Convert: 144 * pi/180 = 4pi/5. Then s = 10 * 4pi/5 = 8pi.",
+              "mistake": "Computing 10 * 144 = 1440, which uses degrees in a radian-only formula.",
+              "again": "Radius 12, angle \\(40^\\circ\\). Find the arc length.",
+              "againA": "\\(40^\\circ = \\dfrac{2\\pi}{9}\\), so \\(s = 12 \\cdot \\dfrac{2\\pi}{9} = \\dfrac{8\\pi}{3}\\).",
+              "reflect": "What will you check for before using \\(s = r\\theta\\) on the real check?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same two-part format as the TR2 CheckIt exercise.",
+          "stops": [
+            {
+              "id": "tr2-f1",
+              "title": "Practice check",
+              "target": "Find coterminal angles and an arc length, the way the TR2 check asks.",
+              "cold": "(a) Find two angles, one positive and one negative, that are coterminal with \\(\\dfrac{4\\pi}{5}\\).<br>(b) Find the length of the arc of a circle of radius 5 intercepted by an angle of \\(288^\\circ\\).",
+              "coldPlain": "(a) Find two angles, one positive and one negative, coterminal with 4pi/5. (b) Find the length of the arc of a circle of radius 5 intercepted by an angle of 288 degrees.",
+              "coldA": "<strong>(a)</strong> Step 1: \\(2\\pi = \\dfrac{2\\pi \\cdot 5}{5} = \\dfrac{10\\pi}{5}\\). Step 2: \\(\\dfrac{4\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{14\\pi}{5}\\). Step 3: \\(\\dfrac{4\\pi}{5} - \\dfrac{10\\pi}{5} = -\\dfrac{6\\pi}{5}\\).<br><strong>(b)</strong> Convert first: \\(288^\\circ \\cdot \\dfrac{\\pi}{180^\\circ} = \\dfrac{8\\pi}{5}\\). Then \\(s = 5 \\cdot \\dfrac{8\\pi}{5} = 8\\pi\\).",
+              "solution": "(a) 2pi = 10pi/5: 4pi/5 + 10pi/5 = 14pi/5 and 4pi/5 - 10pi/5 = -6pi/5. (b) Convert 288 degrees: 288pi/180 = 8pi/5. s = 5 * 8pi/5 = 8pi.",
+              "mistake": "Forgetting to convert 288 degrees to radians before multiplying.",
+              "again": "(a) Find a positive and a negative angle coterminal with \\(160^\\circ\\).<br>(b) Find the arc length on a circle of radius 14 intercepted by an angle of \\(\\dfrac{3\\pi}{4}\\).",
+              "againA": "<strong>(a)</strong> One full turn is \\(360^\\circ\\): \\(160^\\circ + 360^\\circ = 520^\\circ\\) and \\(160^\\circ - 360^\\circ = -200^\\circ\\).<br><strong>(b)</strong> Already in radians: \\(s = 14 \\cdot \\dfrac{3\\pi}{4} = \\dfrac{42\\pi}{4} = \\dfrac{21\\pi}{2}\\).",
+              "reflect": "Which unit (degrees or radians) needs the extra step in each part?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
