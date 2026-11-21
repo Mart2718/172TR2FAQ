@@ -7,85 +7,85 @@
       "id": "faq-1",
       "category": "conceptual",
       "question": "What are coterminal angles?",
-      "answer": "Coterminal angles are two (or more) angles that end up with the exact same terminal side when drawn in standard position — even though they represent different amounts of rotation. You can always find another angle coterminal to a given one by adding or subtracting a full 360° rotation, since spinning all the way around a circle brings you right back to where you started.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 229.7,143.0 A 80,80 0 1 0 195.9,84.5\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\" marker-end=\"url(#arrowCoterm)\"/><text x=\"180\" y=\"195\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"600\">+360&deg;</text><text x=\"205\" y=\"55\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">60&deg; and 420&deg;</text><defs><marker id=\"arrowCoterm\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#1a6b6b\"/></marker></defs></svg></div><p class=\"graph-caption\">60° and 420° land on the exact same terminal side — they're coterminal.</p>"
+      "answer": "Coterminal angles are two (or more) angles that end up with the exact same terminal side when drawn in standard position — even though they represent different amounts of rotation. You can always find another angle coterminal to a given one by adding or subtracting a full 360° (or \\( 2\\pi \\)) rotation, since spinning all the way around a circle brings you right back to where you started.<div class=\"graph-wrap graph-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Scrollable figure: 60 degrees and 420 degrees\"><svg viewBox=\"0 0 340 200\" width=\"340\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two copies of the same angle in standard position. Left: an arrow turns 60 degrees counterclockwise from the positive x-axis to a terminal side in Quadrant I. Right: an arrow spirals counterclockwise one full turn plus 60 degrees more, 420 degrees, and ends on the same terminal side in Quadrant I.\"><defs><marker id=\"t2HeadRay\" markerWidth=\"4\" markerHeight=\"4\" refX=\"3\" refY=\"2\" orient=\"auto\" markerUnits=\"strokeWidth\"><path d=\"M0,0 L4,2 L0,4 Z\" fill=\"#0a3f52\"/></marker><marker id=\"t2HeadTurn\" markerWidth=\"4\" markerHeight=\"4\" refX=\"2\" refY=\"2\" orient=\"auto\" markerUnits=\"strokeWidth\"><path d=\"M0,0 L4,2 L0,4 Z\" fill=\"#a84d16\"/></marker></defs><line x1=\"15\" y1=\"110\" x2=\"155\" y2=\"110\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"35\" x2=\"85\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"185\" y1=\"110\" x2=\"325\" y2=\"110\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"110\" x2=\"116.0\" y2=\"56.3\" stroke=\"#0a3f52\" stroke-width=\"3\" marker-end=\"url(#t2HeadRay)\"/><line x1=\"255\" y1=\"110\" x2=\"286.0\" y2=\"56.3\" stroke=\"#0a3f52\" stroke-width=\"3\" marker-end=\"url(#t2HeadRay)\"/><path d=\"M 107.0,110.0 A 22,22 0 0 0 97.6,92.0\" fill=\"none\" stroke=\"#a84d16\" stroke-width=\"2.5\" marker-end=\"url(#t2HeadTurn)\"/><path d=\"M 273,110 A 18,18 0 0 0 237,110 A 24,24 0 0 0 285,110 A 30,30 0 0 0 272.2,85.4\" fill=\"none\" stroke=\"#a84d16\" stroke-width=\"2.5\" marker-end=\"url(#t2HeadTurn)\"/><text x=\"111\" y=\"102\" font-size=\"14\" fill=\"#a84d16\" font-weight=\"700\">60&#176;</text><text x=\"85\" y=\"190\" font-size=\"14\" fill=\"#1a1a2e\" font-weight=\"700\" text-anchor=\"middle\">60&#176;</text><text x=\"255\" y=\"190\" font-size=\"14\" fill=\"#1a1a2e\" font-weight=\"700\" text-anchor=\"middle\">420&#176; = 60&#176; + 360&#176;</text></svg></div><p class=\"graph-caption\">60° and 420° end on the same terminal side: 420° is one full counterclockwise turn plus 60° more, so they are coterminal.</p>"
     },
     {
       "id": "faq-2",
       "category": "conceptual",
       "question": "What is the principal angle, and why do we usually work with it?",
-      "answer": "Since any angle has infinitely many coterminal angles, it's convenient to agree on one \"default\" representative to work with. The principal angle is that representative — the unique coterminal angle α satisfying 0° ≤ α &lt; 360° (or 0 ≤ α &lt; 2π in radians). Whenever you're handed a large or negative angle, converting it to its principal angle first makes it much easier to visualize and work with."
+      "answer": "<em>Extension:</em> the principal angle goes beyond the TR2 CheckIt exercise, which always starts from an angle between 0° and 360°. Since any angle has infinitely many coterminal angles, it's convenient to agree on one \"default\" representative to work with. The principal angle is that representative — the unique coterminal angle α satisfying 0° ≤ α &lt; 360° (or 0 ≤ α &lt; 2π in radians). Whenever you're handed a large or negative angle, converting it to its principal angle first makes it much easier to visualize and work with."
     },
     {
       "id": "faq-3",
       "category": "conceptual",
       "question": "What is arc length, and how is it different from the angle measure itself?",
-      "answer": "Arc length is the actual DISTANCE traveled along the curved edge of a circle for a given central angle — it's measured in units of length (inches, meters, etc.), not in degrees or radians. The angle measure tells you how much rotation happened; the arc length tells you how far you'd have to physically walk along the circle's edge to match that rotation. The two are related, but they're not the same kind of quantity — one's a rotation, the other's a distance.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><path d=\"M 250,150 A 100,100 0 0 0 100,63.4\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"4\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><line x1=\"150\" y1=\"150\" x2=\"100\" y2=\"63.4\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"130\" y=\"45\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">arc length s</text><text x=\"170\" y=\"140\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\">120&deg;</text></svg></div><p class=\"graph-caption\">The orange curve is the arc — the actual distance along the circle's edge for this 120° angle.</p>"
+      "answer": "Arc length is the actual DISTANCE traveled along the curved edge of a circle for a given central angle — it's measured in units of length (inches, meters, etc.), not in degrees or radians. The angle measure tells you how much rotation happened; the arc length tells you how far you'd have to physically walk along the circle's edge to match that rotation. The two are related, but they're not the same kind of quantity — one's a rotation, the other's a distance.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 230\" width=\"300\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"A circle with two radii from the center, one along the positive x-axis labeled r and one at 120 degrees, forming a central angle labeled 120 degrees. The arc between the ends of the radii, across the top of the circle, is drawn thick and labeled arc length s.\"><circle cx=\"150\" cy=\"125\" r=\"90\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"1.5\"/><path d=\"M 240.0,125.0 A 90,90 0 0 0 105.0,47.1\" fill=\"none\" stroke=\"#a84d16\" stroke-width=\"5\"/><line x1=\"150\" y1=\"125\" x2=\"240.0\" y2=\"125.0\" stroke=\"#0a3f52\" stroke-width=\"2\"/><line x1=\"150\" y1=\"125\" x2=\"105.0\" y2=\"47.1\" stroke=\"#0a3f52\" stroke-width=\"2\"/><path d=\"M 172.0,125.0 A 22,22 0 0 0 139.0,105.9\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"1.5\"/><text x=\"158\" y=\"98\" font-size=\"14\" fill=\"#1a1a2e\" font-weight=\"700\">120&#176;</text><text x=\"192\" y=\"143\" font-size=\"14\" fill=\"#1a1a2e\" font-style=\"italic\" font-weight=\"700\">r</text><text x=\"200\" y=\"38\" font-size=\"14\" fill=\"#a84d16\" font-weight=\"700\">arc length s</text></svg></div><p class=\"graph-caption\">The thick arc is the arc length s: the distance along the circle between the two radii of this 120° central angle.</p>"
     },
     {
       "id": "faq-4",
       "category": "conceptual",
       "question": "Why does the arc length formula simplify to s = rθ when θ is in radians?",
-      "answer": "This connects directly back to TR1's definition of a radian. Remember, 1 radian is defined as the angle that creates an arc exactly as long as the radius — so an angle of θ radians, by that same logic, creates an arc that's θ times the radius long. That's exactly the formula s = rθ; it's not a coincidence, it's the radian definition working exactly as designed. This is also exactly why radians are so useful in more advanced math — the relationship between angle and distance is as simple as it can possibly be."
+      "answer": "This connects directly back to TR1's definition of a radian. Remember, 1 radian is defined as the angle that creates an arc exactly as long as the radius — so an angle of θ radians, by that same logic, creates an arc that's θ times the radius long. That's exactly the formula s = rθ; it's not a coincidence, it's the radian definition working exactly as designed. This is also exactly why radians are so useful in more advanced math — the relationship between angle and distance is as simple as it gets."
     },
     {
       "id": "faq-5",
       "category": "conceptual",
       "question": "What is a sector of a circle, and how do I find its area?",
-      "answer": "A sector is the pie-slice-shaped region bounded by two radii and the arc between them. Since a sector is just some fraction of the entire circle, its area is that same fraction of the entire circle's area (πr²) — the fraction being determined by how much of a full rotation (360° or 2π) the central angle represents.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 150,150 L 250,150 A 100,100 0 0 0 100,63.4 Z\" fill=\"#fdf0e8\" stroke=\"#D4622A\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><text x=\"175\" y=\"130\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">sector</text></svg></div><p class=\"graph-caption\">The shaded sector is bounded by two radii and the arc between them.</p>"
+      "answer": "<em>Extension:</em> sector area goes beyond the TR2 CheckIt exercise, which asks only for arc length. A sector is the pie-slice-shaped region bounded by two radii and the arc between them. Since a sector is just some fraction of the entire circle, its area is that same fraction of the entire circle's area (πr²) — the fraction being determined by how much of a full rotation (360° or 2π) the central angle represents.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 230\" width=\"300\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"A circle with a shaded pie-slice region labeled sector. The sector is bounded by two radii, one along the positive x-axis labeled r and one at 120 degrees, and by the arc of the circle between them.\"><circle cx=\"150\" cy=\"125\" r=\"90\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"1.5\"/><path d=\"M 150,125 L 240.0,125.0 A 90,90 0 0 0 105.0,47.1 Z\" fill=\"#fdf0e8\" stroke=\"#a84d16\" stroke-width=\"2.5\"/><text x=\"160\" y=\"88\" font-size=\"14\" fill=\"#a84d16\" font-weight=\"700\">sector</text><text x=\"192\" y=\"143\" font-size=\"14\" fill=\"#1a1a2e\" font-style=\"italic\" font-weight=\"700\">r</text></svg></div><p class=\"graph-caption\">The shaded sector is bounded by two radii and the arc between them.</p>"
     },
     {
       "id": "faq-6",
       "category": "sticking-points",
       "question": "How do I find angles that are coterminal to a given angle?",
-      "answer": "Add or subtract any whole-number multiple of 360° (or 2π if working in radians). The formula is θ + k·360°, where k can be any integer — positive k gives you larger coterminal angles, negative k gives you smaller (or negative) ones.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find two angles coterminal to \\( 60° \\).</p><p class=\"math-line\">Larger: \\( 60°+360°=420° \\)</p><p class=\"math-line\">Smaller: \\( 60°-360°=-300° \\)</p></div>"
+      "answer": "Add or subtract a whole number of full turns: \\( 360^\\circ \\) in degrees, or \\( 2\\pi \\) in radians. In general, \\( \\theta + 360^\\circ k \\) (or \\( \\theta + 2\\pi k \\)) is coterminal with \\( \\theta \\) for any integer \\( k \\): positive \\( k \\) gives larger angles, negative \\( k \\) gives smaller ones. The TR2 check asks for one positive and one negative angle. CheckIt's angle is always strictly between \\( 0^\\circ \\) and \\( 360^\\circ \\), so adding one full turn always gives a positive answer and subtracting one full turn always gives a negative one.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find one positive and one negative angle coterminal with \\( 240^\\circ \\).</p><p class=\"math-line\">Positive: \\( 240^\\circ+360^\\circ=600^\\circ \\)</p><p class=\"math-line\">Negative: \\( 240^\\circ-360^\\circ=-120^\\circ \\)</p><p class=\"math-line\">In radians, with \\( \\dfrac{2\\pi}{3} \\): write \\( 2\\pi=\\dfrac{6\\pi}{3} \\), so \\( \\dfrac{2\\pi}{3}+\\dfrac{6\\pi}{3}=\\dfrac{8\\pi}{3} \\) and \\( \\dfrac{2\\pi}{3}-\\dfrac{6\\pi}{3}=-\\dfrac{4\\pi}{3} \\).</p></div>"
     },
     {
       "id": "faq-7",
       "category": "sticking-points",
       "question": "How do I find the principal angle for an angle that's very large or negative?",
-      "answer": "Repeatedly add or subtract 360° until the result lands between 0° and 360°. For a large positive angle, keep subtracting 360°; for a negative angle, keep adding 360°. If you'd rather skip the repetition, divide the angle by 360° and use just the remainder (adding 360° once more if that remainder comes out negative).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the principal angle of \\( 830° \\).</p><p class=\"math-line\">\\( 830° - 360° = 470° \\) (still too big)</p><p class=\"math-line\">\\( 470° - 360° = 110° \\) &nbsp;&nbsp; (this is between 0° and 360°)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Principal angle: \\( 110° \\)</p></div>"
+      "answer": "<em>Extension:</em> the principal angle goes beyond the TR2 CheckIt exercise, which always starts from an angle between 0° and 360°. Repeatedly add or subtract 360° until the result is at least 0° and less than 360°. For a large positive angle, keep subtracting 360°; for a negative angle, keep adding 360°. If you'd rather skip the repetition, divide the angle by 360° and use just the remainder (adding 360° once more if that remainder comes out negative).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the principal angle of \\( 830^\\circ \\).</p><p class=\"math-line\">\\( 830^\\circ - 360^\\circ = 470^\\circ \\) (still too big)</p><p class=\"math-line\">\\( 470^\\circ - 360^\\circ = 110^\\circ \\) &nbsp;&nbsp; (at least 0° and less than 360°)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Principal angle: \\( 110^\\circ \\)</p></div>"
     },
     {
       "id": "faq-8",
       "category": "sticking-points",
       "question": "How do I find arc length when the angle is given in degrees?",
-      "answer": "Use the formula s = (θ/360°)(2πr), which simplifies to s = (θ/180°)πr.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the arc length for a \\( 120° \\) sector of a circle with radius \\( 4 \\).</p><p class=\"math-line\">\\( s = \\dfrac{120°}{360°}(2\\pi \\cdot 4) = \\dfrac{1}{3}(8\\pi) = \\dfrac{8\\pi}{3} \\)</p></div>"
+      "answer": "Convert the angle to radians first, then use \\( s=r\\theta \\). (Another route gives the same answer: the arc is the fraction \\( \\dfrac{\\theta}{360^\\circ} \\) of the circumference \\( 2\\pi r \\).)<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the length of the arc of a circle of radius \\( 4 \\) intercepted by an angle of \\( 120^\\circ \\).</p><p class=\"math-line\">Convert: \\( 120^\\circ = 120\\cdot\\dfrac{\\pi}{180} = \\dfrac{2\\pi}{3} \\)</p><p class=\"math-line\">\\( s = r\\theta = 4\\cdot\\dfrac{2\\pi}{3} = \\dfrac{8\\pi}{3} \\)</p><p class=\"math-line\">Check: \\( \\dfrac{120^\\circ}{360^\\circ}(2\\pi\\cdot 4) = \\dfrac{1}{3}(8\\pi) = \\dfrac{8\\pi}{3} \\)</p></div>"
     },
     {
       "id": "faq-9",
       "category": "sticking-points",
       "question": "How do I find arc length when the angle is given in radians?",
-      "answer": "Use the simplified formula s = rθ directly — multiply the radius by the angle measure in radians.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the arc length for a \\( \\dfrac{5\\pi}{6} \\) sector of a circle with radius \\( 3 \\).</p><p class=\"math-line\">\\( s = r\\theta = 3 \\cdot \\dfrac{5\\pi}{6} = \\dfrac{15\\pi}{6} = \\dfrac{5\\pi}{2} \\)</p></div>"
+      "answer": "Use \\( s = r\\theta \\) directly: multiply the radius by the angle measure in radians. Keep \\( \\pi \\) in the answer; CheckIt wants it exact.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the length of the arc of a circle of radius \\( 3 \\) intercepted by an angle of \\( \\dfrac{5\\pi}{4} \\).</p><p class=\"math-line\">\\( s = r\\theta = 3 \\cdot \\dfrac{5\\pi}{4} = \\dfrac{15\\pi}{4} \\) (about 11.8 units)</p></div>"
     },
     {
       "id": "faq-10",
       "category": "sticking-points",
       "question": "How do I find the area of a sector when the angle is given in degrees?",
-      "answer": "Use the formula A = (θ/360°)(πr²) — the same \"fraction of the whole\" logic as arc length, just applied to the circle's full area instead of its full circumference.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of a \\( 120° \\) sector of a circle with radius \\( 4 \\).</p><p class=\"math-line\">\\( A = \\dfrac{120°}{360°}(\\pi \\cdot 4^2) = \\dfrac{1}{3}(16\\pi) = \\dfrac{16\\pi}{3} \\)</p></div>"
+      "answer": "<em>Extension:</em> sector area goes beyond the TR2 CheckIt exercise, which asks only for arc length. Use the formula A = (θ/360°)(πr²) — the same \"fraction of the whole\" logic as arc length, just applied to the circle's full area instead of its full circumference.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of the sector of a circle of radius \\( 4 \\) with a central angle of \\( 120^\\circ \\).</p><p class=\"math-line\">\\( A = \\dfrac{120^\\circ}{360^\\circ}(\\pi \\cdot 4^2) = \\dfrac{1}{3}(16\\pi) = \\dfrac{16\\pi}{3} \\)</p></div>"
     },
     {
       "id": "faq-11",
       "category": "sticking-points",
       "question": "How do I find the area of a sector when the angle is given in radians?",
-      "answer": "Use the simplified formula A = ½θr².<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of a \\( \\dfrac{5\\pi}{6} \\) sector of a circle with radius \\( 3 \\).</p><p class=\"math-line\">\\( A = \\dfrac{1}{2}\\theta r^2 = \\dfrac{1}{2}\\cdot\\dfrac{5\\pi}{6}\\cdot 3^2 = \\dfrac{1}{2}\\cdot\\dfrac{5\\pi}{6}\\cdot 9 = \\dfrac{15\\pi}{4} \\)</p></div>"
+      "answer": "<em>Extension:</em> sector area goes beyond the TR2 CheckIt exercise, which asks only for arc length. Use the simplified formula A = ½θr².<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find the area of the sector of a circle of radius 3 with central angle \\( \\dfrac{5\\pi}{4} \\).</p><p class=\"math-line\">\\( A = \\dfrac{1}{2}\\theta r^2 = \\dfrac{1}{2}\\cdot\\dfrac{5\\pi}{4}\\cdot 9 = \\dfrac{45\\pi}{8} \\)</p></div>"
     },
     {
       "id": "faq-12",
       "category": "sticking-points",
       "question": "What's the difference between arc length and sector area, and when do I use each formula?",
-      "answer": "Arc length measures a curved DISTANCE (a 1-dimensional measurement, in units like inches or meters), while sector area measures a 2-dimensional REGION (in square units, like square inches). Use arc length when the question asks how far something travels along the curve itself; use sector area when the question asks how much surface or space the pie-slice-shaped region covers."
+      "answer": "<em>Extension:</em> sector area goes beyond the TR2 CheckIt exercise; on the check, you need only arc length. Arc length measures a curved DISTANCE (a 1-dimensional measurement, in units like inches or meters), while sector area measures a 2-dimensional REGION (in square units, like square inches). Use arc length when the question asks how far something travels along the curve itself; use sector area when the question asks how much surface or space the pie-slice-shaped region covers."
     },
     {
       "id": "faq-13",
       "category": "connections",
       "question": "How does TR1 connect to what we're doing in TR2?",
-      "answer": "TR2 leans directly on TR1's foundation. Standard position and the sign convention (positive counterclockwise, negative clockwise) from TR1 are exactly what let you find coterminal angles by rotating a full extra turn. And the radian definition from TR1 — an angle whose arc equals the radius — is precisely why the arc length formula simplifies so cleanly to s = rθ once you're working in radians."
+      "answer": "TR2 leans directly on TR1's foundation. Standard position and the sign convention (positive counterclockwise, negative clockwise) from TR1 are exactly what let you find coterminal angles by rotating a full extra turn. And the radian definition from TR1 (one radian is the central angle whose arc is exactly as long as the radius) is precisely why the arc length formula simplifies to s = rθ once you're working in radians."
     },
     {
       "id": "faq-14",
       "category": "connections",
       "question": "Why do coterminal angles and arc length matter for the rest of the trig unit?",
-      "answer": "Coterminal angles become essential once you start solving trig equations, since most equations have infinitely many solutions that are all coterminal with each other — you'll constantly be asked to find \"all solutions\" using the +k·360° idea from this section. Arc length and sector area also show up constantly in real-world applications of trig — anything involving wheels, gears, orbits, or circular motion relies on exactly this relationship between angle and distance."
+      "answer": "Coterminal angles become essential when you solve trig equations. An equation like \\( \\sin\\theta = \\tfrac{1}{2} \\) has two solutions in one full turn, \\( 30^\\circ \\) and \\( 150^\\circ \\), and those two are <em>not</em> coterminal with each other. Every other solution is coterminal with one of them, so the complete list is \\( 30^\\circ + 360^\\circ k \\) and \\( 150^\\circ + 360^\\circ k \\) for any integer \\( k \\). Arc length also shows up in applications of trig: anything involving wheels, gears, orbits, or circular motion uses this same relationship between angle and distance."
     }
   ],
   "videos": [
@@ -115,7 +115,7 @@
       "id": "vid-3",
       "title": "Arc Length and Area of a Sector",
       "url": "https://youtu.be/zD4CsKIYEHo",
-      "description": "An overview of the arc length and sector area formulas, in both degrees and radians, with worked examples.",
+      "description": "An overview of the arc length and sector area formulas, in both degrees and radians, with worked examples. (Extension: sector area goes beyond the TR2 CheckIt exercise.)",
       "category": "arc-length-sector-area",
       "relatedFaqs": [
         "faq-8",
@@ -130,7 +130,7 @@
       "id": "app-1",
       "title": "Coterminal Angles",
       "url": "https://coterminalunitcircle.netlify.app/",
-      "description": "Practice identifying coterminal angles and finding the principal angle on the unit circle.",
+      "description": "Practice identifying coterminal angles on the unit circle. (Extension: its principal-angle practice goes beyond the TR2 CheckIt exercise.)",
       "relatedFaqs": [
         "faq-1",
         "faq-6",
@@ -142,35 +142,35 @@
     "guided": [
       {
         "id": "prompt-1",
-        "title": "Practice Finding Coterminal Angles",
-        "prompt": "I'm learning to find coterminal angles. Give me an angle in degrees and ask me to find one larger and one smaller coterminal angle using the +k(360°) idea. Then give me an angle in radians and have me do the same thing using +k(2π). Check my work each time."
+        "title": "Grade a Classmate's Coterminal Angles",
+        "prompt": "I'm practicing coterminal angles for my TR2 CheckIt. CheckIt gives one angle and asks for one positive and one negative angle coterminal with it. My notes say: coterminal angles differ by a whole number of full turns, so add or subtract 360 degrees, or 2pi in radians after writing 2pi with the same denominator as the angle. Pretend you're a classmate. Do six problems: three in degrees chosen from 40, 45, 60, 72, 80, 90, 120, 135, 144, 160, 200, 216, 225, 240, 270, 280, 288, 300, 315, 320, and three in radians chosen from pi/4, 2pi/9, pi/3, 2pi/5, 4pi/9, pi/2, 2pi/3, 3pi/4, 4pi/5, 8pi/9, 10pi/9, 6pi/5, 5pi/4, 4pi/3, 3pi/2, 14pi/9, 8pi/5, 5pi/3, 7pi/4, 16pi/9. Show only your two answers for each. Get two of the six wrong in realistic ways: negating the angle instead of subtracting a full turn, adding a half turn (180 degrees or pi) instead of a full turn, or, on a radian problem only, adding 2 to the numerator instead of adding 2pi. Don't tell me which ones are wrong until I've graded all six. For each one I mark wrong, I'll show the fix and check it by adding or subtracting full turns until I get back to the original angle. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-2",
-        "title": "Practice Finding the Principal Angle",
-        "prompt": "I'm learning to find the principal angle of a given angle. Give me a large angle (like over 720°) or a negative angle, and walk me through finding its principal angle step by step. Then give me a few more practice angles of increasing difficulty."
+        "title": "Extension: Find the Angle Between 0° and 360°",
+        "prompt": "This goes beyond the TR2 CheckIt exercise, which always starts from an angle between 0 and 360 degrees. I'm learning to find the coterminal angle that is at least 0 degrees and less than 360 degrees (some books call it the principal angle) for a large or negative angle. Give me one angle at a time: first one greater than 720 degrees, then one between -360 and 0 degrees, then one less than -360 degrees, then one in radians like 17pi/4 or -11pi/6. Before I compute, ask me to predict how many full turns I'll need to add or subtract, and why. Give a hint only when I ask. Then work one yourself, step by step, and make one deliberate mistake: stop one full turn too early or too late, so your answer is not at least 0 and less than 360 degrees (or 2pi). I'll find it and check your answer by confirming it differs from the original angle by a whole number of full turns. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-3",
         "title": "Understand Where s = rθ Comes From",
-        "prompt": "I'm learning the arc length formula s = rθ for angles in radians. Can you help me understand why this formula makes sense, connecting it back to the definition of a radian as an angle that creates an arc equal to the radius? Then quiz me on a few arc length problems, mixing both degrees and radians."
+        "prompt": "I'm learning the arc length formula s = r*theta, with theta in radians. My notes say: one radian is the central angle whose arc is exactly as long as the radius. Before you explain anything, ask me: if an angle of 1 radian cuts off an arc of length r, how long is the arc for 2 radians? For 1/2 radian? Wait for my answers, and if I'm stuck, give a small hint instead of the answer. Then ask me to say why s = r*theta only works when theta is in radians. Next, quiz me on three CheckIt-style problems, one at a time: a radius from 2 to 14 and an angle chosen from 40, 45, 60, 72, 80, 90, 120, 135, 144, 160, 180, 200, 216, 225, 240, 270, 280, 288, 300, 315, 320 degrees or the same angles in radians (like 2pi/9, 3pi/4 or 8pi/5), with at least one in degrees. I'll give exact answers in terms of pi. Then solve one more yourself and make one deliberate mistake: using the angle in degrees in s = r*theta, using the diameter instead of the radius, or dropping the pi. I'll find it and check your answer as a fraction of the circumference 2*pi*r. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-4",
-        "title": "Practice Arc Length and Sector Area Together",
-        "prompt": "I'm learning both the arc length formula and the sector area formula. Give me a circle's radius and a central angle, and ask me to find both the arc length AND the sector area for that same sector. Check my work, and help me keep straight which formula uses r and which uses r²."
+        "title": "Extension: Arc Length and Sector Area Together",
+        "prompt": "This goes beyond the TR2 CheckIt exercise, which asks only for arc length. I'm learning the sector area formula alongside arc length. My notes say: arc length s = r*theta and sector area A = (1/2)*r^2*theta, both with theta in radians, and both are the same fraction, theta/(2pi), of the whole circle: of the circumference 2*pi*r for the arc, and of the area pi*r^2 for the sector. Give me a radius from 2 to 14 and a central angle from CheckIt's list (like 80 degrees, 135 degrees, 4pi/5 or 5pi/3). Ask me to find both the arc length and the sector area as exact answers with pi, and to give the units of each (units or square units). Don't confirm until I explain which formula has r and which has r squared, and why. Then do one yourself with one deliberate mistake, such as using r instead of r squared for the area or using the angle in degrees. I'll find it and check your answer as a fraction of the whole circle. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-5",
-        "title": "Connect Coterminal Angles to Solving Trig Equations",
-        "prompt": "I've learned about coterminal angles in TR2, and I've heard this becomes important later when solving trig equations. Can you explain, in a preview kind of way, why an equation like sin(θ) = 0.5 would end up having infinitely many solutions, and how coterminal angles explain that?"
+        "title": "Extension: Coterminal Angles and Trig Equations",
+        "prompt": "This goes beyond the TR2 CheckIt exercise; it previews solving trig equations. I know coterminal angles differ by a whole number of full turns. Ask me first: on the unit circle, which angles from 0 up to 360 degrees have a sine of 1/2? Give a hint if I need one (sine is the y-coordinate), but let me find them myself. Then ask me to explain why sin(theta) = 1/2 has infinitely many solutions, using coterminal angles. Next, write a short explanation of how to list all the solutions, and include one deliberate mistake, such as claiming that 30 and 150 degrees are coterminal with each other, or that every solution is 30 degrees plus a multiple of 360 degrees. I'll find it and check by testing whether the angles differ by a whole number of full turns. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       }
     ],
     "open": [
       {
         "id": "open-1",
         "title": "Create Your Own",
-        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section TR2 (Angle Position and Arc Length). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section TR2 (Angle Position and Arc Length). Ask the AI to question you instead of explaining. Before you trust anything, check one claim the AI makes against your notes or a CheckIt answer (for example, test a coterminal angle by adding or subtracting full turns until you get back to the original, or check an arc length as a fraction of the circumference), and write down what you checked and what you found."
       }
     ]
   },
@@ -179,7 +179,7 @@
       "id": "TR2",
       "label": "TR2: Angle Position and Arc Length",
       "sectionLabel": "TR2, Angle Position and Arc Length",
-      "intro": "Builds to the TR2 check: finding positive and negative coterminal angles, and finding the length of a circular arc.",
+      "intro": "Builds to the TR2 check: finding positive and negative coterminal angles, and finding the length of a circular arc. <strong>Practice scope:</strong> the path uses CheckIt's angles, fractions of a full turn with denominators 2, 3, 4, 5, 6, 8 or 9 (such as 40°, 72°, 135° or 8π/9), radii from 2 to 14, and exact arc lengths in terms of π. The optional stretches in stops 4 and 5 go beyond the TR2 CheckIt exercise.",
       "graphs": {},
       "stages": [
         {
@@ -189,14 +189,14 @@
             {
               "id": "tr2-g1",
               "title": "Convert less-common angles",
-              "target": "Convert between degrees and radians for angles like \\(72^\\circ\\) or \\(\\dfrac{8\\pi}{9}\\), not just multiples of \\(30^\\circ\\) and \\(45^\\circ\\).",
-              "cold": "Convert \\(72^\\circ\\) to radians.",
-              "coldPlain": "Convert 72 degrees to radians.",
-              "coldA": "\\(72 \\cdot \\dfrac{\\pi}{180} = \\dfrac{72\\pi}{180} = \\dfrac{2\\pi}{5}\\).",
-              "solution": "Multiply by pi/180: 72pi/180. Divide top and bottom by 36: 2pi/5.",
-              "mistake": "Not fully reducing 72/180.",
-              "again": "Convert \\(280^\\circ\\) to radians, and \\(\\dfrac{8\\pi}{9}\\) to degrees.",
-              "againA": "\\(280^\\circ = \\dfrac{14\\pi}{9}\\). \\(\\dfrac{8\\pi}{9} = \\dfrac{8(180^\\circ)}{9} = 160^\\circ\\).",
+              "target": "Convert between degrees and radians for angles like \\(216^\\circ\\) or \\(\\dfrac{4\\pi}{9}\\), not just multiples of \\(30^\\circ\\) and \\(45^\\circ\\).",
+              "cold": "Convert \\(216^\\circ\\) to radians.",
+              "coldPlain": "Convert 216 degrees to radians.",
+              "coldA": "\\(216 \\cdot \\dfrac{\\pi}{180} = \\dfrac{216\\pi}{180} = \\dfrac{6\\pi}{5}\\).",
+              "solution": "Multiply by pi/180: 216pi/180. Divide top and bottom by 36: 6pi/5.",
+              "mistake": "Not fully reducing 216/180 (for example, stopping at 108pi/90 or 12pi/10).",
+              "again": "Convert \\(40^\\circ\\) to radians, and \\(\\dfrac{4\\pi}{9}\\) to degrees.",
+              "againA": "\\(40^\\circ = \\dfrac{40\\pi}{180} = \\dfrac{2\\pi}{9}\\). \\(\\dfrac{4\\pi}{9} = \\dfrac{4(180^\\circ)}{9} = 80^\\circ\\).",
               "reflect": "What is a good first factor to try when reducing a fraction over 180?",
               "related": [
                 {
@@ -209,13 +209,13 @@
               "id": "tr2-g2",
               "title": "Add and subtract 2π",
               "target": "Add or subtract \\(2\\pi\\) from a fraction of \\(\\pi\\): first rewrite \\(2\\pi\\) as a fraction with the same denominator, then combine the numerators.",
-              "cold": "Find \\(\\dfrac{3\\pi}{5} + 2\\pi\\) and \\(\\dfrac{3\\pi}{5} - 2\\pi\\).",
-              "coldPlain": "Find 3pi/5 + 2pi and 3pi/5 - 2pi.",
-              "coldA": "<strong>Step 1: Write \\(2\\pi\\) as a fraction over 5.</strong> \\(2\\pi = \\dfrac{2\\pi}{1} = \\dfrac{2\\pi \\cdot 5}{1 \\cdot 5} = \\dfrac{10\\pi}{5}\\).<br><strong>Step 2: Add.</strong> \\(\\dfrac{3\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{3\\pi + 10\\pi}{5} = \\dfrac{13\\pi}{5}\\).<br><strong>Step 3: Subtract.</strong> \\(\\dfrac{3\\pi}{5} - \\dfrac{10\\pi}{5} = \\dfrac{3\\pi - 10\\pi}{5} = -\\dfrac{7\\pi}{5}\\).",
-              "solution": "Step 1: 2pi has no denominator, so write it as 2pi/1 and multiply the top and bottom by 5 to match: 2pi = 10pi/5. Step 2: now the denominators match, so add the numerators: 3pi/5 + 10pi/5 = 13pi/5. Step 3: subtract the numerators: 3pi/5 - 10pi/5 = -7pi/5.",
-              "mistake": "Adding 2 to the numerator (getting 5pi/5) instead of first rewriting 2pi as 10pi/5.",
-              "again": "Find \\(\\dfrac{5\\pi}{8} + 2\\pi\\) and \\(\\dfrac{5\\pi}{8} - 2\\pi\\).",
-              "againA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 8}{8} = \\dfrac{16\\pi}{8}\\).<br><strong>Step 2:</strong> \\(\\dfrac{5\\pi}{8} + \\dfrac{16\\pi}{8} = \\dfrac{21\\pi}{8}\\).<br><strong>Step 3:</strong> \\(\\dfrac{5\\pi}{8} - \\dfrac{16\\pi}{8} = -\\dfrac{11\\pi}{8}\\).",
+              "cold": "Find \\(\\dfrac{6\\pi}{5} + 2\\pi\\) and \\(\\dfrac{6\\pi}{5} - 2\\pi\\).",
+              "coldPlain": "Find 6pi/5 + 2pi and 6pi/5 - 2pi.",
+              "coldA": "<strong>Step 1: Write \\(2\\pi\\) as a fraction over 5.</strong> \\(2\\pi = \\dfrac{2\\pi}{1} = \\dfrac{2\\pi \\cdot 5}{1 \\cdot 5} = \\dfrac{10\\pi}{5}\\).<br><strong>Step 2: Add.</strong> \\(\\dfrac{6\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{6\\pi + 10\\pi}{5} = \\dfrac{16\\pi}{5}\\).<br><strong>Step 3: Subtract.</strong> \\(\\dfrac{6\\pi}{5} - \\dfrac{10\\pi}{5} = \\dfrac{6\\pi - 10\\pi}{5} = -\\dfrac{4\\pi}{5}\\).",
+              "solution": "Step 1: 2pi has no denominator, so write it as 2pi/1 and multiply the top and bottom by 5 to match: 2pi = 10pi/5. Step 2: now the denominators match, so add the numerators: 6pi/5 + 10pi/5 = 16pi/5. Step 3: subtract the numerators: 6pi/5 - 10pi/5 = -4pi/5.",
+              "mistake": "Adding 2 to the numerator (getting 8pi/5) instead of first rewriting 2pi as 10pi/5.",
+              "again": "Find \\(\\dfrac{7\\pi}{4} + 2\\pi\\) and \\(\\dfrac{7\\pi}{4} - 2\\pi\\).",
+              "againA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 4}{4} = \\dfrac{8\\pi}{4}\\).<br><strong>Step 2:</strong> \\(\\dfrac{7\\pi}{4} + \\dfrac{8\\pi}{4} = \\dfrac{15\\pi}{4}\\).<br><strong>Step 3:</strong> \\(\\dfrac{7\\pi}{4} - \\dfrac{8\\pi}{4} = -\\dfrac{\\pi}{4}\\).",
               "reflect": "What is the rule for rewriting \\(2\\pi\\) over any denominator? (Hint: over 9, it is \\(\\dfrac{18\\pi}{9}\\).)",
               "related": [
                 {
@@ -233,14 +233,14 @@
             {
               "id": "tr2-t1",
               "title": "What coterminal means",
-              "target": "Coterminal angles share the same terminal side. They differ by a whole number of full turns: multiples of \\(360^\\circ\\) or \\(2\\pi\\).",
-              "cold": "Which of these are coterminal with \\(30^\\circ\\)? &nbsp; \\(390^\\circ\\), \\(-330^\\circ\\), \\(330^\\circ\\)",
-              "coldPlain": "Which of these are coterminal with 30 degrees: 390, -330, 330 degrees?",
-              "coldA": "Subtract each angle from \\(30^\\circ\\) and ask: is the difference a full turn, \\(360^\\circ\\) (or a multiple of it)?<br>\\(390^\\circ - 30^\\circ = 360^\\circ\\): <strong>coterminal</strong> (one extra turn).<br>\\(30^\\circ - (-330^\\circ) = 360^\\circ\\): <strong>coterminal</strong> (one turn backward).<br>\\(330^\\circ - 30^\\circ = 300^\\circ\\): <strong>not</strong> coterminal. \\(330^\\circ\\) ends in Quadrant IV.",
-              "solution": "Subtract each from 30 and see if the difference is a multiple of 360: 390 - 30 = 360 yes; 30 - (-330) = 360 yes; 330 - 30 = 300 no.",
-              "mistake": "Thinking -330 and 330 are both coterminal because they \"look related.\"",
+              "target": "Coterminal angles share the same terminal side. They differ by a whole number of full turns: \\(360^\\circ\\) or \\(2\\pi\\), added or subtracted any number of times.",
+              "cold": "Which of these are coterminal with \\(45^\\circ\\)? &nbsp; \\(405^\\circ\\), \\(-315^\\circ\\), \\(315^\\circ\\)",
+              "coldPlain": "Which of these are coterminal with 45 degrees: 405, -315, 315 degrees?",
+              "coldA": "Find the difference between each angle and \\(45^\\circ\\), and ask: is it a whole number of full turns, a multiple of \\(360^\\circ\\)?<br>\\(405^\\circ - 45^\\circ = 360^\\circ\\): <strong>coterminal</strong> (one extra turn).<br>\\(45^\\circ - (-315^\\circ) = 360^\\circ\\): <strong>coterminal</strong> (one turn backward).<br>\\(315^\\circ - 45^\\circ = 270^\\circ\\): <strong>not</strong> coterminal. \\(315^\\circ\\) ends in Quadrant IV, not Quadrant I.",
+              "solution": "Find the difference between each angle and 45 and see if it is a multiple of 360: 405 - 45 = 360 yes; 45 - (-315) = 360 yes; 315 - 45 = 270 no.",
+              "mistake": "Thinking -315 and 315 are both coterminal because they \"look related.\"",
               "again": "Which are coterminal with \\(\\dfrac{3\\pi}{4}\\)? &nbsp; \\(\\dfrac{11\\pi}{4}\\), \\(-\\dfrac{5\\pi}{4}\\), \\(-\\dfrac{3\\pi}{4}\\)",
-              "againA": "In radians a full turn is \\(2\\pi\\). Over 4, that is \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br>\\(\\dfrac{11\\pi}{4} - \\dfrac{3\\pi}{4} = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{5\\pi}{4}\\right) = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{3\\pi}{4}\\right) = \\dfrac{6\\pi}{4}\\): <strong>not</strong> a full turn, so not coterminal.",
+              "againA": "In radians a full turn is \\(2\\pi\\). Over 4, that is \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br>\\(\\dfrac{11\\pi}{4} - \\dfrac{3\\pi}{4} = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{5\\pi}{4}\\right) = \\dfrac{8\\pi}{4} = 2\\pi\\): <strong>coterminal</strong>.<br>\\(\\dfrac{3\\pi}{4} - \\left(-\\dfrac{3\\pi}{4}\\right) = \\dfrac{6\\pi}{4} = \\dfrac{3\\pi}{2}\\): <strong>not</strong> a full turn, so not coterminal.",
               "reflect": "How can you test whether two angles are coterminal?",
               "related": [
                 {
@@ -266,10 +266,10 @@
               "coldA": "<strong>Why 360?</strong> One full turn is \\(360^\\circ\\). Going around once more lands on the same terminal side.<br><strong>Positive:</strong> add a full turn. \\(144^\\circ + 360^\\circ = 504^\\circ\\).<br><strong>Negative:</strong> subtract a full turn. \\(144^\\circ - 360^\\circ = -216^\\circ\\).",
               "solution": "Add 360 for a positive coterminal angle: 504 degrees. Subtract 360 for a negative one: -216 degrees. (Other answers, like 864 or -576, are also correct.)",
               "mistake": "Subtracting 180, which gives the opposite direction instead of the same terminal side.",
-              "again": "Find a positive and a negative angle coterminal with \\(40^\\circ\\).",
-              "againA": "<strong>Positive:</strong> \\(40^\\circ + 360^\\circ = 400^\\circ\\).<br><strong>Negative:</strong> \\(40^\\circ - 360^\\circ = -320^\\circ\\).",
-              "stretch": "Find the angle between \\(0^\\circ\\) and \\(360^\\circ\\) coterminal with \\(850^\\circ\\).",
-              "stretchA": "\\(850^\\circ\\) is more than two full turns, so subtract \\(360^\\circ\\) until the angle is between \\(0^\\circ\\) and \\(360^\\circ\\):<br>\\(850^\\circ - 360^\\circ = 490^\\circ\\) (still too big), then \\(490^\\circ - 360^\\circ = 130^\\circ\\).",
+              "again": "Find a positive and a negative angle coterminal with \\(225^\\circ\\).",
+              "againA": "<strong>Positive:</strong> \\(225^\\circ + 360^\\circ = 585^\\circ\\).<br><strong>Negative:</strong> \\(225^\\circ - 360^\\circ = -135^\\circ\\).",
+              "stretch": "<strong>Extension</strong> (beyond the TR2 CheckIt exercise, which always starts from an angle between \\(0^\\circ\\) and \\(360^\\circ\\)): find the angle that is at least \\(0^\\circ\\) and less than \\(360^\\circ\\) and is coterminal with \\(850^\\circ\\).",
+              "stretchA": "\\(850^\\circ\\) is more than two full turns, so subtract \\(360^\\circ\\) until the angle is at least \\(0^\\circ\\) and less than \\(360^\\circ\\):<br>\\(850^\\circ - 360^\\circ = 490^\\circ\\) (still too big), then \\(490^\\circ - 360^\\circ = 130^\\circ\\).",
               "reflect": "Why is there more than one correct answer?",
               "related": [
                 {
@@ -284,7 +284,8 @@
                   "label": "Apps",
                   "tab": "tab-apps"
                 }
-              ]
+              ],
+              "note": "For any new problem, use CheckIt's kind of angle: a fraction of a full turn with denominator 2, 3, 4, 5, 6, 8 or 9 (such as 40, 72, 135 or 288 degrees, or 2pi/9, 4pi/5 or 7pi/4), and for arcs a radius from 2 to 14."
             },
             {
               "id": "tr2-t3",
@@ -297,8 +298,8 @@
               "mistake": "Skipping Step 1 and adding 2 to the numerator (getting 4pi/5), or adding 2pi/5 instead of 2pi.",
               "again": "Find a positive and a negative angle coterminal with \\(\\dfrac{5\\pi}{3}\\).",
               "againA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{2\\pi \\cdot 3}{3} = \\dfrac{6\\pi}{3}\\).<br><strong>Step 2:</strong> \\(\\dfrac{5\\pi}{3} + \\dfrac{6\\pi}{3} = \\dfrac{11\\pi}{3}\\).<br><strong>Step 3:</strong> \\(\\dfrac{5\\pi}{3} - \\dfrac{6\\pi}{3} = -\\dfrac{\\pi}{3}\\).",
-              "stretch": "Find the angle between \\(0\\) and \\(2\\pi\\) coterminal with \\(-\\dfrac{17\\pi}{4}\\).",
-              "stretchA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br><strong>Step 2:</strong> the angle is negative, so <em>add</em> full turns until it is between 0 and \\(2\\pi\\):<br>\\(-\\dfrac{17\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{9\\pi}{4}\\), then \\(-\\dfrac{9\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{\\pi}{4}\\), then \\(-\\dfrac{\\pi}{4} + \\dfrac{8\\pi}{4} = \\dfrac{7\\pi}{4}\\).",
+              "stretch": "<strong>Extension</strong> (beyond the TR2 CheckIt exercise): find the angle that is at least \\(0\\) and less than \\(2\\pi\\) and is coterminal with \\(-\\dfrac{17\\pi}{4}\\).",
+              "stretchA": "<strong>Step 1:</strong> \\(2\\pi = \\dfrac{8\\pi}{4}\\).<br><strong>Step 2:</strong> the angle is negative, so <em>add</em> full turns until it is at least 0 and less than \\(2\\pi\\):<br>\\(-\\dfrac{17\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{9\\pi}{4}\\), then \\(-\\dfrac{9\\pi}{4} + \\dfrac{8\\pi}{4} = -\\dfrac{\\pi}{4}\\), then \\(-\\dfrac{\\pi}{4} + \\dfrac{8\\pi}{4} = \\dfrac{7\\pi}{4}\\).",
               "reflect": "How is this the same as adding \\(360^\\circ\\) in degrees? What is the extra step in radians?",
               "related": [
                 {
@@ -313,19 +314,20 @@
                   "label": "Apps",
                   "tab": "tab-apps"
                 }
-              ]
+              ],
+              "note": "For any new problem, use CheckIt's kind of angle: a fraction of a full turn with denominator 2, 3, 4, 5, 6, 8 or 9 (such as 40, 72, 135 or 288 degrees, or 2pi/9, 4pi/5 or 7pi/4), and for arcs a radius from 2 to 14."
             },
             {
               "id": "tr2-t4",
               "title": "Arc length with radians",
               "target": "The length of an arc on a circle of radius \\(r\\) cut off by a central angle \\(\\theta\\) <strong>in radians</strong> is \\(s = r\\theta\\).",
-              "cold": "Find the length of the arc of a circle of radius 6 intercepted by an angle of \\(\\dfrac{5\\pi}{6}\\).",
-              "coldPlain": "Find the length of the arc of a circle of radius 6 intercepted by an angle of 5pi/6.",
-              "coldA": "\\(s = 6 \\cdot \\dfrac{5\\pi}{6} = 5\\pi\\) (about 15.71 units).",
-              "solution": "The angle is already in radians, so s = r * theta = 6 * 5pi/6 = 5pi.",
-              "mistake": "Using the formula with an angle in degrees.",
-              "again": "Radius 9, angle \\(\\dfrac{4\\pi}{9}\\). Find the arc length.",
-              "againA": "\\(s = 9 \\cdot \\dfrac{4\\pi}{9} = 4\\pi\\).",
+              "cold": "Find the length of the arc of a circle of radius 3 intercepted by an angle of \\(\\dfrac{5\\pi}{3}\\).",
+              "coldPlain": "Find the length of the arc of a circle of radius 3 intercepted by an angle of 5pi/3.",
+              "coldA": "\\(s = 3 \\cdot \\dfrac{5\\pi}{3} = 5\\pi\\) (about 15.7 units).",
+              "solution": "The angle is already in radians, so s = r * theta = 3 * 5pi/3 = 5pi.",
+              "mistake": "Using the diameter, 6, instead of the radius (getting 10pi), or dropping the pi (getting 5).",
+              "again": "Find the length of the arc of a circle of radius 4 intercepted by an angle of \\(\\dfrac{8\\pi}{9}\\).",
+              "againA": "\\(s = 4 \\cdot \\dfrac{8\\pi}{9} = \\dfrac{32\\pi}{9}\\) (about 11.2 units). Nothing cancels, and that is fine: CheckIt may print this as \\(\\dfrac{32}{9}\\pi\\), the same number.",
               "reflect": "Why does a bigger radius give a longer arc for the same angle?",
               "related": [
                 {
@@ -340,7 +342,8 @@
                   "label": "Apps",
                   "tab": "tab-apps"
                 }
-              ]
+              ],
+              "note": "For any new problem, use CheckIt's kind of angle: a fraction of a full turn with denominator 2, 3, 4, 5, 6, 8 or 9 (such as 40, 72, 135 or 288 degrees, or 2pi/9, 4pi/5 or 7pi/4), and for arcs a radius from 2 to 14."
             },
             {
               "id": "tr2-t5",
@@ -351,7 +354,7 @@
               "coldA": "\\(144^\\circ = \\dfrac{4\\pi}{5}\\), so \\(s = 10 \\cdot \\dfrac{4\\pi}{5} = 8\\pi\\).",
               "solution": "Convert: 144 * pi/180 = 4pi/5. Then s = 10 * 4pi/5 = 8pi.",
               "mistake": "Computing 10 * 144 = 1440, which uses degrees in a radian-only formula.",
-              "again": "Radius 12, angle \\(40^\\circ\\). Find the arc length.",
+              "again": "Find the length of the arc of a circle of radius 12 intercepted by an angle of \\(40^\\circ\\).",
               "againA": "\\(40^\\circ = \\dfrac{2\\pi}{9}\\), so \\(s = 12 \\cdot \\dfrac{2\\pi}{9} = \\dfrac{8\\pi}{3}\\).",
               "reflect": "What will you check for before using \\(s = r\\theta\\) on the real check?",
               "related": [
@@ -363,7 +366,8 @@
                   "label": "Videos",
                   "tab": "tab-videos"
                 }
-              ]
+              ],
+              "note": "For any new problem, use CheckIt's kind of angle: a fraction of a full turn with denominator 2, 3, 4, 5, 6, 8 or 9 (such as 40, 72, 135 or 288 degrees, or 2pi/9, 4pi/5 or 7pi/4), and for arcs a radius from 2 to 14."
             }
           ]
         },
@@ -374,13 +378,13 @@
             {
               "id": "tr2-f1",
               "title": "Practice check",
-              "target": "Find coterminal angles and an arc length, the way the TR2 check asks.",
-              "cold": "(a) Find two angles, one positive and one negative, that are coterminal with \\(\\dfrac{4\\pi}{5}\\).<br>(b) Find the length of the arc of a circle of radius 5 intercepted by an angle of \\(288^\\circ\\).",
-              "coldPlain": "(a) Find two angles, one positive and one negative, coterminal with 4pi/5. (b) Find the length of the arc of a circle of radius 5 intercepted by an angle of 288 degrees.",
-              "coldA": "<strong>(a)</strong> Step 1: \\(2\\pi = \\dfrac{2\\pi \\cdot 5}{5} = \\dfrac{10\\pi}{5}\\). Step 2: \\(\\dfrac{4\\pi}{5} + \\dfrac{10\\pi}{5} = \\dfrac{14\\pi}{5}\\). Step 3: \\(\\dfrac{4\\pi}{5} - \\dfrac{10\\pi}{5} = -\\dfrac{6\\pi}{5}\\).<br><strong>(b)</strong> Convert first: \\(288^\\circ \\cdot \\dfrac{\\pi}{180^\\circ} = \\dfrac{8\\pi}{5}\\). Then \\(s = 5 \\cdot \\dfrac{8\\pi}{5} = 8\\pi\\).",
-              "solution": "(a) 2pi = 10pi/5: 4pi/5 + 10pi/5 = 14pi/5 and 4pi/5 - 10pi/5 = -6pi/5. (b) Convert 288 degrees: 288pi/180 = 8pi/5. s = 5 * 8pi/5 = 8pi.",
-              "mistake": "Forgetting to convert 288 degrees to radians before multiplying.",
-              "again": "(a) Find a positive and a negative angle coterminal with \\(160^\\circ\\).<br>(b) Find the arc length on a circle of radius 14 intercepted by an angle of \\(\\dfrac{3\\pi}{4}\\).",
+              "target": "Do both parts of a TR2-style check: coterminal angles and an arc length.",
+              "cold": "(a) Find two angles, one positive and one negative, that are coterminal with \\(\\dfrac{4\\pi}{3}\\).<br>(b) Find the length of the arc of a circle of radius 5 intercepted by an angle of \\(288^\\circ\\).",
+              "coldPlain": "(a) Find two angles, one positive and one negative, coterminal with 4pi/3. (b) Find the length of the arc of a circle of radius 5 intercepted by an angle of 288 degrees.",
+              "coldA": "<strong>(a)</strong> Step 1: \\(2\\pi = \\dfrac{2\\pi \\cdot 3}{3} = \\dfrac{6\\pi}{3}\\). Step 2: \\(\\dfrac{4\\pi}{3} + \\dfrac{6\\pi}{3} = \\dfrac{10\\pi}{3}\\). Step 3: \\(\\dfrac{4\\pi}{3} - \\dfrac{6\\pi}{3} = -\\dfrac{2\\pi}{3}\\).<br><strong>(b)</strong> Convert first: \\(288^\\circ \\cdot \\dfrac{\\pi}{180^\\circ} = \\dfrac{8\\pi}{5}\\). Then \\(s = 5 \\cdot \\dfrac{8\\pi}{5} = 8\\pi\\). CheckIt may print arc lengths as a fraction times \\(\\pi\\), like \\(\\dfrac{21}{2}\\pi\\); that is the same number as \\(\\dfrac{21\\pi}{2}\\).",
+              "solution": "(a) 2pi = 6pi/3: 4pi/3 + 6pi/3 = 10pi/3 and 4pi/3 - 6pi/3 = -2pi/3. (b) Convert 288 degrees: 288pi/180 = 8pi/5. s = 5 * 8pi/5 = 8pi.",
+              "mistake": "In (a), negating the angle (-4pi/3) instead of subtracting 2pi; in (b), forgetting to convert 288 degrees to radians before multiplying (getting 1440).",
+              "again": "(a) Find a positive and a negative angle coterminal with \\(160^\\circ\\).<br>(b) Find the length of the arc of a circle of radius 14 intercepted by an angle of \\(\\dfrac{3\\pi}{4}\\).",
               "againA": "<strong>(a)</strong> One full turn is \\(360^\\circ\\): \\(160^\\circ + 360^\\circ = 520^\\circ\\) and \\(160^\\circ - 360^\\circ = -200^\\circ\\).<br><strong>(b)</strong> Already in radians: \\(s = 14 \\cdot \\dfrac{3\\pi}{4} = \\dfrac{42\\pi}{4} = \\dfrac{21\\pi}{2}\\).",
               "reflect": "Which unit (degrees or radians) needs the extra step in each part?",
               "related": [
@@ -392,7 +396,8 @@
                   "label": "AI Prompts",
                   "tab": "tab-prompts"
                 }
-              ]
+              ],
+              "note": "For any new problem, use CheckIt's kind of angle: a fraction of a full turn with denominator 2, 3, 4, 5, 6, 8 or 9 (such as 40, 72, 135 or 288 degrees, or 2pi/9, 4pi/5 or 7pi/4), and for arcs a radius from 2 to 14."
             }
           ]
         }
